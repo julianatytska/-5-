@@ -1,0 +1,13 @@
+alphabet = " абвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+encrypt = input("Enter your message:")
+key = int(input("Enter a key from 1 to 32 :"))
+encrypt = encrypt.lower()
+encrypted = ""
+for letter in encrypt:
+    position = alphabet.find(letter)
+    position1 = position + key
+    if letter in alphabet:
+        encrypted = encrypted + alphabet[position1]
+    else:
+        encrypted = encrypted + letter
+print("You got it : ",encrypted )
