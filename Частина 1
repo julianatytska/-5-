@@ -10,4 +10,4 @@ for letter in encrypt:
         encrypted = encrypted + alphabet[position1]
     else:
         encrypted = encrypted + letter
-print("You got it : ",encrypted )
+print("You got it : ", encrypted)
