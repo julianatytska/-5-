@@ -1,6 +1,6 @@
 alphabet = " абвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
 encrypt = input("Enter your message:")
-key = int(input("Enter a key from 1 to 32 :"))
+key = int(1)
 encrypt = encrypt.lower()
 encrypted = ""
 for letter in encrypt:
